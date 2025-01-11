@@ -1,6 +1,7 @@
 
 .display{
   background-color: rgba(245, 245, 245, 1);
+
 }
 /* nav styles */
 nav{
@@ -40,6 +41,9 @@ nav{
   padding: 17px 34px;
   border: none;
 }
+.btn-primary:hover{
+  background-color: red;
+}
 .about{
   margin: 0px 160px;
 
@@ -71,6 +75,9 @@ border-radius: 16px;
   padding: 11px 20px;
   border: none
 }
+.button-1:hover{
+  background-color: red;
+}
 .button-2{
   background-color:#09A15C;
   font-weight: 500px;
@@ -80,6 +87,9 @@ border-radius: 16px;
   border:none
 
 }
+.button-2:hover{
+  background-color: red;
+}
 .button-3{
   background-color:#FFC239;
   font-weight: 500px;
@@ -87,6 +97,9 @@ border-radius: 16px;
   border-radius: 8px;
   padding: 11px 20px;
   border: none
+}
+.button-3:hover{
+  background-color: red;
 }
 /* muhammad yunus styles */
 .muhammad-yunus{
@@ -135,6 +148,9 @@ background-color: white;
   padding: 13px 26px;
   border: none
 }
+.button-4:hover{
+  background-color: red;
+}
 .donate-section{
   margin: 0px 160px;
   text-align: center;
@@ -143,16 +159,24 @@ background-color: white;
 .amount{
   margin: 0px 160px;
   display: flex;
+  gap: 10px;
+
 }
 .money{
-  padding: 40px 40px;
-  width: 252px;
+  padding: 20px 20px;
+  width: 138px;
   background-color: white;
   border-radius: 16px;
   font-weight: bold;
-  gap: 24px;
-  justify-content: space-around;
 
+}
+
+
+
+.taka{
+  padding: 18px 220px;
+  border: none;
+  text-align: center;
 }
 .other-amount{
   margin: 0px 160px;
@@ -160,8 +184,37 @@ background-color: white;
   background-color: white;
   border: none;
 }
-.taka{
-  padding: 18px 220px;
+.sub{
+  display: inline;
+  margin-left: -5px;
   border: none;
+}
+.here{
   text-align: center;
+  width: 300px;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.sub:hover{
+  background-color: red;
+}
+.field{
+  background-color: #006A62;
+color: white;
+font-weight: 500px;
+border-bottom-right-radius: 6px;
+border-top-right-radius: 6px;
+border: none;
+}
+.field:hover{
+  background-color: red;
+}
+.footre-section{
+  margin: 0px 160px;
+  text-align: center;
+  background-color:rgba(198, 228, 214, 1);
+  border: none;
+  border-radius: 24px;
+
 }
