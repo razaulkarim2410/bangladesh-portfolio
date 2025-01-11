@@ -1,6 +1,7 @@
 
-
-
+.display{
+  background-color: rgba(245, 245, 245, 1);
+}
 /* nav styles */
 nav{
   display: flex;
@@ -85,6 +86,53 @@ border-radius: 16px;
   color: white;
   border-radius: 8px;
   padding: 11px 20px;
+  border: none
+}
+/* muhammad yunus styles */
+.muhammad-yunus{
+  margin: 0px 160px;
+  background-color:white;
+  border-radius: 16px;
+}
+.banner-pic{
+  
+}
+.recent{
+  margin: 0px 160px;
+
+}
+/* news-styles */
+.recent-image{
+  max-width: 408px;
+  border-radius: 24px;
+}
+.news-conten{
+  max-width: 744px;
+}
+.news{
+
+margin: 0px 160px;
+display: flex;
+justify-content: space-around;
+gap: 40px;
+border-radius: 24px;
+background-color: white;
+}
+.news-1{
+  margin: 0px 160px;
+display: flex;
+justify-content: space-around;
+gap: 40px;
+border-radius: 24px;
+background-color: white;
+
+}
+.button-4{
+  background-color:#006A50;
+  font-weight: 500px;
+  color: white;
+  border-radius: 8px;
+  padding: 13px 26px;
   border: none
 }
 
