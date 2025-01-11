@@ -1,5 +1,6 @@
 
 
+
 /* nav styles */
 nav{
   display: flex;
@@ -38,3 +39,52 @@ nav{
   padding: 17px 34px;
   border: none;
 }
+.about{
+  margin: 0px 160px;
+
+}
+/* development-container styles */
+.development-container{
+  display: flex;
+  gap: 24px;
+}
+.development-1{
+background-color: rgba(84, 144, 245, 0.2);
+border-radius: 16px;
+}
+.development-2{
+  background-color: #C6E4D6;
+  border-radius: 16px;
+
+}
+.development-3{
+  background-color: #F7EBCF;
+  border-radius: 16px;
+
+}
+.button-1{
+  background-color:#5490F5;
+  font-weight: 500px;
+  color: white;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border: none
+}
+.button-2{
+  background-color:#09A15C;
+  font-weight: 500px;
+  color: white;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border:none
+
+}
+.button-3{
+  background-color:#FFC239;
+  font-weight: 500px;
+  color: white;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border: none
+}
+
