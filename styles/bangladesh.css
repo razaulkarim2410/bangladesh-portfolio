@@ -135,4 +135,33 @@ background-color: white;
   padding: 13px 26px;
   border: none
 }
+.donate-section{
+  margin: 0px 160px;
+  text-align: center;
 
+}
+.amount{
+  margin: 0px 160px;
+  display: flex;
+}
+.money{
+  padding: 40px 40px;
+  width: 252px;
+  background-color: white;
+  border-radius: 16px;
+  font-weight: bold;
+  gap: 24px;
+  justify-content: space-around;
+
+}
+.other-amount{
+  margin: 0px 160px;
+  text-align: center;
+  background-color: white;
+  border: none;
+}
+.taka{
+  padding: 18px 220px;
+  border: none;
+  text-align: center;
+}
