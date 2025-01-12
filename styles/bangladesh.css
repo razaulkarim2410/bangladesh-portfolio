@@ -24,10 +24,18 @@ nav{
 }
 .banner-content{
   max-width: 622px;
+  
+}
+.banner-top{
+  color: rgba(14, 14, 14, 0.5);
+  margin-left: 10px;
+  font-weight: 400px;
+
 }
 .banner-title{
   font-weight: bold;
   font-size: 56px;
+  margin-left: 10px;
 }
 .banner-profile-pic{
   width:  474px;
@@ -51,7 +59,8 @@ nav{
 /* development-container styles */
 .development-container{
   display: flex;
-  gap: 24px;
+  gap: 15px;
+
 }
 .development-1{
 background-color: rgba(84, 144, 245, 0.2);
@@ -103,12 +112,13 @@ border-radius: 16px;
 }
 /* muhammad yunus styles */
 .muhammad-yunus{
-  margin: 0px 160px;
+  margin: 50px 160px;
   background-color:white;
   border-radius: 16px;
 }
 .banner-pic{
-  
+background-image: url(../assets/quote-bg.png) ;
+background-repeat: no-repeat;
 }
 .recent{
   margin: 0px 160px;
@@ -164,15 +174,12 @@ background-color: white;
 }
 .money{
   padding: 20px 20px;
-  width: 138px;
+  width: 140px;
   background-color: white;
   border-radius: 16px;
   font-weight: bold;
 
 }
-
-
-
 .taka{
   padding: 18px 220px;
   border: none;
